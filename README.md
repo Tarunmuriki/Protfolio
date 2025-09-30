@@ -53,14 +53,18 @@ You need **Python 3** installed on your system.
     Ensure your project structure includes these folders for the Flask application to run correctly:
 
     ```
-    .
-    ├── app.py
-    ├── templates/
-    │   ├── index.html
-    │   └── contact.html
-    └── static/
-        └── images/
-            └── profile.jpg 
+flask-portfolio/
+├── app.py
+├── requirements.txt
+├── templates/
+│ ├── base.html
+│ ├── index.html
+│ └── contact.html
+└── static/
+├── css/
+│ └── style.css
+└── img/
+└── (put your profile image here, e.g. profile.jpg) 
     ```
 
     * `templates/`: Contains your HTML files (`index.html`, `contact.html`).
